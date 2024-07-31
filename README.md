@@ -41,6 +41,7 @@ pnpm install
 ### Task 4: Deploy Project
 - **Solution**: Deployed the project on Vercel, as it is already linked to my GitHub account.
 - **Challenges**: None encountered.
+- **Live Demo**: [Clic Counter](https://eonix-clic-counter-git-main-rosablds-projects.vercel.app/)!
 
 ### Bonus: Unit Testing
 - **Solution**: Unable to implement unit tests at this time.
