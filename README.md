@@ -40,18 +40,19 @@ pnpm install
 
 ### Task 4: Deploy Project
 - **Solution**: Deployed the project on Vercel, as it is already linked to my GitHub account.
-- **Challenges**: None encountered.
+- **Challenges**: Encountered issues with --legacy-peer-deps, which were resolved by configuring the vercel.json file.
 - **Live Demo**: [Clic Counter](https://eonix-clic-counter-git-main-rosablds-projects.vercel.app/)
 
 ### Bonus: Unit Testing
-- **Solution**: Unable to implement unit tests at this time.
-- **Challenges**: Encountered multiple issues with Jest configuration, including missing dependencies and ES6 conflicts. Updates to the packages led to further conflicts, preventing the application from starting.
+- **Solution**: Learned how to use Jest.
+- **Challenges**: Understanding where and how to effectively test the app.
 
 ## Technologies Used
 - React App
 - JavaScript
 - React Redux
 - SASS (for button styling)
+- Jest
 
 
 ## Start project
