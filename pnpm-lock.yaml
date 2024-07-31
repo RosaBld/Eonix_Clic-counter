@@ -467,6 +467,7 @@ packages:
 
   /async-each@1.0.6:
     resolution: {integrity: sha512-c646jH1avxr+aVpndVMeAfYw7wAa6idufrlN3LPA4PmKS0QEGp6PIC9nwz0WQkkvBGAMEki3pFdtxaF39J9vvg==}
+    requiresBuild: true
     dev: true
 
   /async@0.2.10:
@@ -501,7 +502,7 @@ packages:
     resolution: {integrity: sha512-BrtFd8nGiHJrfPfGZ4/iv3yFH15Fvo/+nb/ObqjfEaPM/KTUWprhJTBKdp5V3hATndPNV5v6ZLxHiqiQeZBgqQ==}
     dependencies:
       browserslist: 1.7.7
-      caniuse-db: 1.0.30001644
+      caniuse-db: 1.0.30001645
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       postcss: 5.2.18
@@ -1278,6 +1279,7 @@ packages:
   /binary-extensions@1.13.1:
     resolution: {integrity: sha512-Un7MIEDdUC5gNpcGDV97op1Ywk748MpHcFTHoYs6qnj1Z3j7I53VG3nwZhKzoBZmbdRNnb6WRdFlwl7tSDuZGw==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dev: true
 
   /bindings@1.5.0:
@@ -1373,7 +1375,7 @@ packages:
     deprecated: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
     hasBin: true
     dependencies:
-      caniuse-db: 1.0.30001644
+      caniuse-db: 1.0.30001645
       electron-to-chromium: 1.5.4
     dev: true
 
@@ -1478,13 +1480,13 @@ packages:
     resolution: {integrity: sha512-SBTl70K0PkDUIebbkXrxWqZlHNs0wRgRD6QZ8guctShjbh63gEPfF+Wj0Yw+75f5Y8tSzqAI/NcisYv/cCah2Q==}
     dependencies:
       browserslist: 1.7.7
-      caniuse-db: 1.0.30001644
+      caniuse-db: 1.0.30001645
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-db@1.0.30001644:
-    resolution: {integrity: sha512-OlqZDIvlcyBAasO9Qk5dW7+4SxNgtgqOesj6rxWF/OD8fZD5Z8mpCNizy9JzAZNkOra1udaYIH1hAR1r8m8cqw==}
+  /caniuse-db@1.0.30001645:
+    resolution: {integrity: sha512-UAViO9bQ1G9VWHohQKhf4hkJfH5ABLLpmbI5hLXqq1yrW/2n7m2cccMWbA9nSxkqvDS1FeEGvThz8hCjXckT2g==}
     dev: true
 
   /cardinal@2.1.1:
@@ -3169,7 +3171,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.19.1
+      uglify-js: 3.4.10
     dev: true
 
   /har-schema@2.0.0:
@@ -3529,6 +3531,7 @@ packages:
   /is-binary-path@1.0.1:
     resolution: {integrity: sha512-9fRVlXc0uCxEDj1nQzaWONSpbTfx0FmJfzHF7pwlI8DkWGoHBBea4Pg5Ky0ojwwxQmnSifgbKkI06Qv0Ljgj+Q==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dependencies:
       binary-extensions: 1.13.1
     dev: true
@@ -4067,7 +4070,7 @@ packages:
       nwmatcher: 1.4.4
       parse5: 1.5.1
       request: 2.88.2
-      sax: 1.4.1
+      sax: 1.2.4
       symbol-tree: 3.2.4
       tough-cookie: 2.5.0
       webidl-conversions: 4.0.2
@@ -5869,10 +5872,6 @@ packages:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
     dev: true
 
-  /sax@1.4.1:
-    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
-    dev: true
-
   /scheduler@0.19.1:
     resolution: {integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==}
     dependencies:
@@ -6525,14 +6524,6 @@ packages:
       uglify-to-browserify: 1.0.2
       yargs: 3.10.0
     dev: true
-
-  /uglify-js@3.19.1:
-    resolution: {integrity: sha512-y/2wiW+ceTYR2TSSptAhfnEtpLaQ4Ups5zrjB2d3kuVxHj16j/QJwPl5PvuGy9uARb39J0+iKxcRPvtpsx4A4A==}
-    engines: {node: '>=0.8.0'}
-    hasBin: true
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /uglify-js@3.4.10:
     resolution: {integrity: sha512-Y2VsbPVs0FIshJztycsO2SfPk7/KAF/T72qzv9u5EpQ4kB2hQoHlhNQTsNyy6ul7lQtqJN/AoWeS23OzEiEFxw==}
