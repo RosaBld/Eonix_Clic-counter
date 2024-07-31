@@ -56,6 +56,6 @@ pnpm install
 ## Start project
 To start the project, use the command: 
 ```sh
-pnpm run start
+npm run start
 ```
 
