@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "connected-react-router": "^6.6.1",
+    "crea": "^0.0.0",
+    "escape-string-regexp": "^5.0.0",
     "history": "^4.10.1",
     "hoist-non-react-statics": "^3.3.2",
     "invariant": "^2.2.4",
