@@ -7,12 +7,18 @@ function Home({
 }) {
   return (
     <div>
-      <button onClick={onIncrement}>
+      <h2>
         Vous avez cliqué {counter} fois
-      </button>
-      <button onClick={onDecrement}>
-        Oops, enlevons un click!
-      </button>
+      </h2>
+      <div className="buttonsCounter">
+        <button className="decrement" onClick={onDecrement}>
+          <p className="decrementText">-</p>
+        </button>
+
+        <button className="increment" onClick={onIncrement}>
+          <p className="incrementText">+</p>
+        </button>
+      </div>
     </div>
   );
 };

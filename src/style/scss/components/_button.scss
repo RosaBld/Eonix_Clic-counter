@@ -1,0 +1,40 @@
+.buttonsCounter {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  width: 30%;
+  
+  .increment, .decrement {
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: #204F97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.2s;
+
+    &:hover {
+      box-shadow: 2px 5px 10px #5f779c;
+    }
+
+    &:active {
+      animation: clickAnimation 0.15s;
+    }
+  }
+}
+
+@keyframes clickAnimation {
+  0% {
+    background-color: #204F97;
+  }
+  50% {
+    background-color: #0693e3;
+  }
+  100% {
+    background-color: #204F97;
+  }
+}
