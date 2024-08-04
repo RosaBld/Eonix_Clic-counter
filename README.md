@@ -13,7 +13,7 @@ git clone https://github.com/RosaBld/Eonix_Clic-counter.git
 
 2. Install dependencies using pnpm:
 ```sh
-pnpm install
+npm install
 ```
 
 ## Problem Statement
